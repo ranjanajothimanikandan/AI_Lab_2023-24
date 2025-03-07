@@ -38,8 +38,7 @@ def bfs(visited, graph, node):  # Function for BFS
             if neighbour not in visited:
                 visited.append(neighbour)
                 queue.append(neighbour)
-print("Following is the Breadth-First Search:")
-bfs(visited, graph, '5')  # Function calling
+
 ```
 
 
